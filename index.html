@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+     <link rel="icon" type="image/png" href="https://cdn-icons-png.freepik.com/512/16755/16755278.png">
+     <title>Frontend Practice ▪️ Sravan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow1 fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="https://delphime.com/wp-content/uploads/2023/01/Delphi-Logo-Thin-01as-white-1.png.webp" class="navbar-image" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="#HomeSection" id="nav-item1">
+            Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link" id="nav-item2" href="#ServiceSection">Services</a>
+          <a class="nav-link disabled" aria-disabled="true"id="nav-item3" href="#">Projects</a>
+          <a class="nav-link" id="nav-item4" href="#TestimonalSection">Testimonals</a>
+          <a class="nav-link" id="nav-item5" href="#ContactSection">Contact</a>
+        </div>
+      </div>
+    </nav>
+    </header>
+  <section id="HomeSection">
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+      <div class="text-center">
+        <h1 class="banner-heading mb-3">Get <span style="color:#f60">Solutions</span> for your <span style="color:#f60">Business</span></h1>
+        <p class="banner-caption mb-4">Delphi is one of the fastest-growing technology consulting firms stationed in the UAE.<br>We aim to empower our clients with modern cloud solutions to take key business decisions leveraging a data-centric approach.</p>
+        <a class="custom-button" href="#ServiceSection">Explore Services</a>
+    </div>
+  </section>
+
+    <div class="wcu-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="wcu-section-heading">Why Choose Us?</h1>
+            <p class="wcu-section-description">
+              Delivering innovative digital solutions tailored to empower your business growth.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="assets/adaptability.png"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Innovative Solutions</h1>
+              <p class="wcu-card-description">
+                We leverage the latest technologies and creative strategies to craft custom software solutions that meet your unique business needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="assets/employee.png"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Expert Team</h1>
+              <p class="wcu-card-description">
+               Our team of skilled professionals brings deep industry experience and technical expertise to deliver high-quality, reliable software products.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="assets/reliability.png"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Reliable Support</h1>
+              <p class="wcu-card-description">
+                We provide ongoing support and maintenance, ensuring your solutions remain efficient and up-to-date as your business evolves.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <section id="ServiceSection">
+    <div class="wcu-section pt-5 pb-5 col-12">
+      <div class="container">
+        <div class="row">
+            <h1 class="wcu-section-heading">Services</h1>
+            <p class="wcu-section-description">
+            At Delphime, we deliver end-to-end technology solutions that accelerate innovation, improve efficiency, and secure your digital future. Our expertise spans Cloud & Infrastructure, Security & Compliance, Data & AI, DevOps, Business Applications, and Collaboration.
+            </p>
+           </div>
+           </div> 
+     </div>
+
+    <!-- Filter Buttons -->
+<div class="service-filter-buttons text-center wcu-section">
+  <button class="filter-btn" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="cloud">Cloud & Infra</button>
+  <button class="filter-btn" data-filter="security">Security & Compliance</button>
+  <button class="filter-btn" data-filter="apps">Business Apps, Data & AI</button>
+  <button class="filter-btn" data-filter="devops">DevOps & Modernization</button>
+  <button class="filter-btn" data-filter="collab">Collaboration & Voice</button>
+</div>
+
+<!-- Services Section -->
+<section class="services-section">
+  <div class="container">
+    <div class="row" id="services-container">
+
+      <!-- Cloud & Infrastructure -->
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="cloud">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cloud-Migration-Icon.png" alt="Cloud Migration Icon" class="service-icon" />
+          <h3 class="service-heading">Cloud Migration</h3>
+          <p class="service-description">
+            Seamless migration of infrastructure and workloads to cloud platforms with minimal disruption.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="cloud">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cloud-Modernization-Icon.png" alt="Cloud Modernization Icon" class="service-icon" />
+          <h3 class="service-heading">Cloud Modernization</h3>
+          <p class="service-description">
+            Transform and optimize legacy systems to modern cloud-native architectures.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="cloud">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cloud-Migration-Icon.png" alt="Cloud App Dev Icon" class="service-icon" />
+          <h3 class="service-heading">Cloud Application Development</h3>
+          <p class="service-description">
+            Build scalable, resilient applications in the cloud tailored to your business needs.
+          </p>
+        </div>
+      </div>
+
+      <!-- Security & Compliance -->
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="security">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Information-Protection-Icon.png" alt="IAM Icon" class="service-icon" />
+          <h3 class="service-heading">Identity & Access Management</h3>
+          <p class="service-description">
+            Control and secure user access with identity governance, SSO, and MFA implementation.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="security">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cloud-Security-Icon.png" alt="Cloud Security Icon" class="service-icon" />
+          <h3 class="service-heading">Cloud Security</h3>
+          <p class="service-description">
+            Harden cloud infrastructure with security architectures, threat detection, and audit.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="security">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Threat-Protection-Icon.png" alt="Threat Protection Icon" class="service-icon" />
+          <h3 class="service-heading">Threat Protection & Assessments</h3>
+          <p class="service-description">
+            Perform security assessments, vulnerability scanning, and continuous threat protection.
+          </p>
+        </div>
+      </div>
+
+      <!-- Business Apps, Data & AI -->
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="apps">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Data-Transformation-Consulting-Icon.png" alt="Data Transformation Icon" class="service-icon" />
+          <h3 class="service-heading">Data Transformation Consulting</h3>
+          <p class="service-description">
+            Convert raw data into meaningful insights, pipelines, and integrated systems.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="apps">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Enterprise-Business-Dashboarding-Icon.png" alt="Dashboard Icon" class="service-icon" />
+          <h3 class="service-heading">Enterprise Business Dashboarding</h3>
+          <p class="service-description">
+            Create interactive executive dashboards and reporting for better decision-making.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="apps">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cognitive-Analytics-Machine-Learning-Artificial-Intelligence-Icon.png" alt="AI / ML Icon" class="service-icon" />
+          <h3 class="service-heading">AI & Machine Learning</h3>
+          <p class="service-description">
+            Deploy predictive models, AI/ML services into applications to harness intelligent insights.
+          </p>
+        </div>
+      </div>
+
+      <!-- DevOps & Modernization -->
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="devops">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Application-Engineering-Icon.png" alt="App Engineering Icon" class="service-icon" />
+          <h3 class="service-heading">Application Engineering</h3>
+          <p class="service-description">
+            Design and build robust, maintainable applications using modern engineering practices.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="devops">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cloud-Application-Services-Icon.png" alt="Cloud Services Icon" class="service-icon" />
+          <h3 class="service-heading">Cloud & Application Services</h3>
+          <p class="service-description">
+            Ongoing service and operations support to keep your cloud and applications running smoothly.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="devops">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Cloud-Advisory-Consulting-Icon.png" alt="Consulting Icon" class="service-icon" />
+          <h3 class="service-heading">Cloud Advisory & Consulting</h3>
+          <p class="service-description">
+            Strategy, architecture, and best-practice advice to guide your cloud journey.
+          </p>
+        </div>
+      </div>
+
+      <!-- Collaboration & Voice -->
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="collab">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/SharePoint-Icon.png" alt="SharePoint Icon" class="service-icon" />
+          <h3 class="service-heading">SharePoint Solutions</h3>
+          <p class="service-description">
+            Build intranet, document management, collaboration systems via SharePoint.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="collab">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Adoption-Change-Management-Icon.png" alt="Change Management Icon" class="service-icon" />
+          <h3 class="service-heading">Adoption & Change Management</h3>
+          <p class="service-description">
+            Train, onboard, and manage organizational change to adopt new tools and workflows.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 service-card mb-3" data-domain="collab">
+        <div class="service-content">
+          <img src="https://delphime.com/wp-content/uploads/2023/01/Microsoft-Enterprise-Voice-Telephony-Solution-Icon.png" alt="Voice Telephony Icon" class="service-icon" />
+          <h3 class="service-heading">Enterprise Voice Solutions</h3>
+          <p class="service-description">
+            Design and deploy scalable voice/telephony systems integrated with enterprise workflows.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> 
+</section>
+
+ <section id="TestimonalSection">
+  <div class="wcu-section pt-5 pb-5 col-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="wcu-section-heading">Testimonals</h1>
+            <p class="wcu-section-description">
+              Discover how Delphime has helped organizations accelerate growth and efficiency.
+            </p> 
+           </div>  
+        </div>
+      </div>
+  </div>
+    
+
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner p-4">
+        <div class="carousel-item active text-center">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3" alt="Sarah Johnson" style="width:100px; height:100px; object-fit:cover;">
+          <blockquote class="blockquote">
+            <p class="mb-4">"Delphime transformed our digital operations with their expert solutions. The team was professional and exceeded expectations."</p>
+            <footer class="blockquote-footer">Sarah Johnson, <cite title="Source Title">CTO, TechCorp</cite></footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="https://randomuser.me/api/portraits/men/36.jpg" class="rounded-circle mb-3" alt="Michael Lee" style="width:100px; height:100px; object-fit:cover;">
+          <blockquote class="blockquote">
+            <p class="mb-4">"Thanks to Delphime, our cloud migration was seamless and efficient. Their strategic approach saved us time and resources."</p>
+            <footer class="blockquote-footer">Michael Lee, <cite title="Source Title">Head of IT, FinServe</cite></footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-3" alt="Emily Davis" style="width:100px; height:100px; object-fit:cover;">
+          <blockquote class="blockquote">
+            <p class="mb-4">"Their AI and data expertise helped us unlock new insights, driving better business decisions and growth."</p>
+            <footer class="blockquote-footer">Emily Davis, <cite title="Source Title">Data Analyst, RetailPro</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </section>
+    
+  <!-- Contact Section -->
+  <section id="ContactSection" class="contact-us">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      
+      <!-- Left Side: Follow Us + Footer (Desktop First, Mobile Last) -->
+      <div class="col-md-6 order-2 order-md-1 contact-us">
+        <!-- Follow Us Section -->
+        <h1 class="follow-us-section-heading">Follow Us</h1>
+        <div class="d-flex flex-row justify-content-center mb-4">
+          <div class="follow-us-icon-container me-3">
+            <a href="https://www.linkedin.com/company/delphi-consulting-middle-east/" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin icon" style="color: #0a66c2; font-size: 32px;"></i>
+            </a>
+          </div>
+          <div class="follow-us-icon-container me-3">
+            <a href="https://twitter.com/delphi_and" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter icon" style="color: #0a66c2; font-size: 32px;"></i>
+            </a>
+          </div>
+          <div class="follow-us-icon-container me-3">
+            <a href="https://www.facebook.com/profile.php?id=100063504186088" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook icon" style="color: #0a66c2; font-size: 32px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer-section">
+          <div class="text-center">
+            <img
+              src="https://delphime.com/wp-content/uploads/2023/01/Delphi-Logo-Thin-01as-white-1.png.webp"
+              class="footer-company-logo mb-3"
+              alt="Delphi Logo"
+              style="max-width: 180px;"
+            />
+            <h4 class="footer-section-mail-id">info@delphime.com</h4>
+            <p class="footer-section-address">
+              14th Floor, Suite no. 1407, Concord Tower,<br>
+              Dubai Media City, PO Box 451893,<br>
+              Dubai, UAE
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Contact Form (Desktop Last, Mobile First) -->
+      <div class="col-md-6 order-1 order-md-2 mb-0 mb-md-0 contact-us">
+        <h1 class="contact-form-heading">Contact Us</h1>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-control" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-30">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </body>
+</html>

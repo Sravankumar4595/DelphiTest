@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.contact-us{
+    background-color: black;
+}
+
+.contact-form-heading{
+    color: #f60;
+    font-family: "Roboto";
+   font-size: 28px;
+   font-weight: 700;
+}
+.form-label{
+    color: white;
+}
+
+.follow-us-section {
+  background-color: black;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #f60;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  background-color: black;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+.footer-section {
+  background-color: black;
+}
+.footer-section-mail-id {
+  color: #959ead;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.footer-company-logo {
+  width: 150px;
+  height: 75px;
+}
+
+.follow-us-section {
+  background-color: black;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #f60;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+.footer-section {
+  background-color: black;
+}
+.footer-section-mail-id {
+  color: #959ead;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.footer-company-logo {
+  width: 150px;
+  height: 75px;
+}
+
+.carousel-inner {
+        color: white;
+      }
+
+.carousel .blockquote-footer,
+.carousel .blockquote-footer cite {
+        color: #f60 !important;
+      }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+        background-color: white;
+        border-radius: 50%;
+      }
+
+.carousel-control-prev,
+.carousel-control-next {
+        width: 5%;
+      }
+
+
+#carouselExampleIndicators{
+    background-color: black;
+}      
+/* === Services Section Styling === */
+
+.services-section {
+  background-color: #000;  /* Black background */
+  padding: 60px 0;
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+  border-color: transparent; /* or your preferred color */
+}
+.service-filter-buttons .filter-btn {
+  background-color: transparent;
+  border: 1px solid #f60;
+  color: #f60;
+  padding: 10px 18px;
+  margin: 0 8px 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.service-filter-buttons .filter-btn:hover,
+.service-filter-buttons .filter-btn.active {
+  background-color: #f60;
+  color: #fff;
+}
+
+/* === Service Cards === */
+.service-card {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.service-content {
+  background-color: #111;  /* Slight contrast */
+  border-radius: 8px;
+  padding: 25px 20px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.1);
+  text-align: center;
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.service-heading {
+  color: #f60; /* Orange heading */
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.service-description {
+  color: #fff; /* White description */
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* === Responsive Layout Adjustments === */
+@media (max-width: 768px) {
+  .service-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-heading {
+    font-size: 1.1rem;
+  }
+
+  .service-description {
+    font-size: 0.9rem;
+  }
+}
+
+.wcu-section {
+  background-color: #000;
+}
+.wcu-section-heading {
+  color: #f60;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-description {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f60;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.banner-section-bg-container {
+  background-image: url("assets/DigitalGlobe.gif");
+  height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 300;
+}
+.custom-button {
+  color: black;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.custom-button:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.shadow1 {
+    box-shadow: 0 .5rem 1rem #222 !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.navbar-image{
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
+#nav-item1{
+    font-family: "Roboto";
+    color: white;
+}
+#nav-item2{
+    font-family: "Roboto";
+    color:  white;
+}
+#nav-item3{
+    font-family: "Roboto";
+    color:  gray;
+}
+#nav-item4{
+    font-family: "Roboto";
+    color:  white;
+}
+#nav-item5{
+    font-family: "Roboto";
+    color:  white;
+}
