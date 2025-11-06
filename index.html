@@ -12,6 +12,57 @@
      <title>Frontend Practice ▪️ Sravan</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    
+<style>
+/* Floating Chat Button */
+#chatBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 28px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+/* Chat Popup Window */
+#chatPopup {
+    display: none;
+    position: fixed;
+    bottom: 95px;
+    right: 20px;
+    width: 320px;
+    height: 380px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    z-index: 99999;
+    overflow: hidden;
+}
+
+/* Iframe Styling */
+#chatPopup iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Close Button */
+#closeChat {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #777;
+}
+</style>
   </head>
   <body>
     <header>
@@ -398,6 +449,25 @@
     </div>
   </div>
 </section>
+<!-- Floating Chat Button -->
+<button id="chatBtn">💬</button>
 
+<!-- Chat Popup -->
+<div id="chatPopup">
+    <span id="closeChat">&times;</span>
+
+    <iframe src="https://copilotstudio.microsoft.com/environments/977f7c51-56a4-e3d9-96fb-db21bcc14045/bots/crdb8_delphiSupportBot/webchat?__version__=2"></iframe>
+</div>
+
+<script>
+document.getElementById("chatBtn").onclick = function () {
+    document.getElementById("chatPopup").style.display = "block";
+};
+
+document.getElementById("closeChat").onclick = function () {
+    document.getElementById("chatPopup").style.display = "none";
+};
+</script>
   </body>
+
 </html>
